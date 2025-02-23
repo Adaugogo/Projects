@@ -1,0 +1,56 @@
+body{
+    background-color: #A9B5DF;
+}
+#entire{
+    margin-top:25%;
+}
+#poster{
+    max-width:50%;
+    margin-left: 25%;
+    text-align: center;
+    position: relative;
+   
+}
+#spantext{
+    max-width:100% ;
+}
+img{
+    max-width: 100%;
+    height: 100;
+    display:block
+   }
+#text{
+    text-align: center;
+    background-color:white;
+    margin:0;
+    max-width: 89.3%;
+    padding: 20px;
+    height: 100%;
+    text-align: left;
+    }
+h2{
+    background-color: white;
+    max-width: 89.3%;
+    padding: 10px;
+    height: 70%;
+    margin:0;
+    padding: 20px;
+    text-align: left;
+    padding-bottom: 0;
+}
+span{
+    color:grey;
+    font-size:18px;
+  }
+#highlight{
+    background-color: rgb(243, 228, 160);
+    max-width: 50%;
+    height:10%;
+    padding: 0;
+    margin-left: -20px;
+    margin-top: 10px;
+    position: absolute;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
