@@ -2,35 +2,35 @@ body{
     background-color: #A9B5DF;
 }
 #entire{
-    margin-top:25%;
+    margin-top:50px;
 }
 #poster{
-    max-width:50%;
+    max-width:500px;
     margin-left: 25%;
     text-align: center;
-    position: relative;
    
 }
 #spantext{
     max-width:100% ;
 }
 img{
-    max-width: 100%;
+    width: 500px;
     height: 100;
     display:block
    }
+
 #text{
     text-align: center;
     background-color:white;
     margin:0;
-    max-width: 89.3%;
+    width: 460px;
     padding: 20px;
     height: 100%;
     text-align: left;
     }
 h2{
     background-color: white;
-    max-width: 89.3%;
+    width: 460px;
     padding: 10px;
     height: 70%;
     margin:0;
