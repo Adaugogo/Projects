@@ -1,0 +1,377 @@
+
+ 
+#top-text{
+    display: grid;
+    flex-basis:382px; 
+    width: 99vw;
+    height: 382px;
+    border-bottom: 8px solid #999999
+}
+#huckleberry h1{
+    font-family:"Lato", serif;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 38.4px;
+    letter-spacing: 0%;
+    position: absolute;
+    width: 180px;
+    height: 38px;
+    top: 96px;
+    left: 264px;
+}
+ 
+#passion {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    width: 415px;
+    height: 60px;
+    top: 182px;
+    left: 264px;
+}
+
+#tomorrow {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    width: 415px;
+    height: 60px;
+    margin: 0px;
+    padding: 0px;
+    top: 258px;
+    left: 264px;
+    position: absolute;
+}
+
+span{
+    font-family: "Lato", serif;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color:green ;
+}
+
+#bottom-text{
+    display: flex;
+    background-color: #666666;
+    width: 99vw;
+    height:450px ;
+    top: 382px;   
+}  
+
+.card {
+    background: white;
+    position: absolute;
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px; 
+    letter-spacing: 0%;
+    position: absolute;
+    width: 800px; 
+    height: 312px;
+    top: 454px;
+    left: 240px;
+    border-bottom-width: 8px;
+}
+
+#fortune-50 {
+    font-family: "Lato", serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    padding-top: 0px;
+    padding-left:30px;
+    padding-bottom: 0px;
+    width: 752px;
+    height: 120px;
+    top: 546px;
+    left: 264px;
+margin: 0px;
+margin-top: 10px;
+}
+#established {
+    font-family: "Lato", serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    padding-top: 0px;
+    padding-left:30px;
+    padding-bottom: 20px;
+    width: 752px;
+    height: 60px;
+    top: 682px;
+    left: 264px;
+    
+}
+
+#highlight{
+    background-color: #FFBF00;
+    padding: 0px;
+    margin: 0px;
+    margin-left: -10px;
+    margin-top: 10px;
+    width: 398px;
+    height: 60px;
+    top: 462px;
+    left: 232px;
+    border-bottom-width: 8px;
+}
+
+#spantext{
+    width: 398px;
+    height: 60px;
+    top: 488px;
+    left: 264px;
+    font-family: "Lato", serif;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28.8px;
+    letter-spacing: 0%;
+    color: #000000;
+    padding: 0%;
+    margin: 0%;
+    padding-left: 30px;
+    padding-top: 15px;
+    } 
+    @media (min-width: 768px) and (max-width: 1279px)   {
+      
+        #top-text {
+            display: grid;
+            min-width: 776px;
+            height: 382px;
+            border-bottom: 8px solid #999999;
+            padding: 0px;
+        }
+
+        #bottom-text {
+            display: flex;
+            background-color: #666666; 
+           
+            min-width: 776px;
+            height: 456px;
+            top: 382px;
+            left: -8px;
+         }  
+
+         #huckleberry h1{
+            font-family:"Lato", serif;
+            position: absolute;
+            min-width: 180px;
+            height: 38px;
+            top: 96px;
+            left: 24px;
+            font-weight: 800;
+            font-size: 32px;
+            line-height: 38.4px;
+            letter-spacing: 0%;
+        }
+        #passion {
+            font-family: "Lato", serif;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: -0.5%;
+            position: absolute;
+            margin: 0px;
+            padding: 0px;
+            min-width: 401px;
+            height: 60px;
+            top: 182px;
+            left: 24px;
+        }
+        #tomorrow {
+            font-family: "Lato", serif;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: 0.5%;
+            margin: 0px;
+            padding: 0px;
+            min-width: 405px;
+            height: 60px;
+            top: 258px;
+            left: 24px;
+            position: absolute;
+        }
+        .card {
+            background: white;
+            position: absolute;
+            font-family: Lato;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px; 
+            letter-spacing: 0%;
+            min-width: 768px; 
+            height: 312px;
+            top: 454px;
+            left: -8px;
+            border-bottom-width: 8px;
+            margin-top: 40px;
+        }
+        #fortune-50 {
+            font-family: "Lato", serif;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: 0%;
+            padding-top: 0px;
+            padding-left:30px;
+            padding-bottom: 0px;
+            min-width: 720px;
+            height: 120px;
+            top: 546px;
+            left: 264px;
+        margin: 0px;
+        margin-top: 10px;
+        }
+
+        #established {
+            font-family: "Lato", serif;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: 0%;
+            padding-top: 0px;
+            padding-left:30px;
+            padding-bottom: 20px;
+            max-width: 720px;
+            height: 60px;
+            top: 682px;
+            left: 264px;
+            
+        }
+        
+        #highlight{
+            background-color: #FFBF00;
+            padding: 0px;
+            margin: 0px;
+            margin-left: -10px;
+            margin-top: 10px;
+            width: 398px;
+            height: 60px;
+            top: 462px;
+            left: 232px;
+            border-bottom-width: 8px;
+        }
+    }
+    @media(min-width: 344px) and (max-width: 767px){
+        .grid-container{
+            display: grid;
+            grid-template-rows: 382px 450px;
+        } 
+
+        #top-text {
+            display: grid;
+            min-width: 398px;
+            height: 382px;
+            border-bottom: 8px solid #999999;
+        }
+
+        #bottom-text {
+            display: flex;
+            background-color: #666666; 
+            min-width: 398px;
+            height: 767px;
+            top: 382px;
+            left: -8px;
+         }  
+
+         #huckleberry h1{
+            font-family:"Lato", serif;
+            position: absolute;
+            max-width: 180px;
+            height: 38px;
+            top: 96px;
+            left: 24px;
+            font-weight: 800;
+            font-size: 32px;
+            line-height: 38.4px;
+            letter-spacing: 0%;
+            
+        }
+        #passion {
+            font-family: "Lato", serif;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: -0.5%;
+            position: absolute;
+            margin: 0px;
+            padding: 0px;
+            max-width: 342px;
+            height: 60px;
+            top: 182px;
+            left: 24px;
+        }
+        #tomorrow {
+            font-family: "Lato", serif;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: 0.5%;
+            margin: 0px;
+            padding: 0px;
+            min-width: 342px;
+            height: 60px;
+            top: 258px;
+            left: 24px;
+            position: absolute;
+        }
+        .card {
+            background: white;
+            position: absolute;
+            font-family:"Lato", serif;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px; 
+            letter-spacing: 0%;
+            max-width: 390px; 
+            height: 455px;
+            top: 382px;
+            left: -8px;
+            border-bottom-width: 8px;
+            margin-top: 100px;
+            padding-bottom: 30px;
+        }
+        #fortune-50 {
+            font-family: "Lato", serif;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: 0%;
+            padding-top: 0px;
+            padding-left:30px;
+            padding-bottom: 0px;
+            max-width: 342px;
+            height: 240px;
+            top: 574px;
+            left: 24px;
+            margin: 0px;
+            margin-top: 10px;
+        }
+        #established {
+            font-family: "Lato", serif;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: 0%;
+            padding-top: 0px;
+            padding-left:30px;
+            padding-bottom: 30px;
+            max-width: 342px;
+            height: 120px;
+            top: 830px;
+            left: 24px;     
+        }
+    }
